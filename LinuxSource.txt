@@ -893,7 +893,7 @@ function Linux.Create(config)
                     for _, opt in pairs(Options) do
                         local OptBtn = Linux.Instance("TextButton", {
                             Parent = DropFrame,
-                            BackgroundColor3 = Color3.fromRGB(15, 15, 20),
+                            BackgroundColor3 = Color3.fromRGB(22, 22, 27),
                             BorderColor3 = Color3.fromRGB(30, 30, 35),
                             BorderSizePixel = 2,
                             Size = UDim2.new(1, -5, 0, 25),
